@@ -1,0 +1,20 @@
+{
+    "name": "th3shadowbroker/json-configuration",
+    "description": "A basic json-configuration.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Th3Shadowbroker",
+            "email": "webmaster@m4taiori.de"
+        }
+    ],
+    "require": {
+        "ext-json": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "github\\th3shadowbroker\\json_config\\": "src"
+        }
+    }
+}
